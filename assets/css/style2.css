@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+	background: #f8f8f8;
+	font-family: 'Open Sans', sans-serif;
+}
+body a {
+	text-decoration: none;
+}
+header .container .row {
+	display: grid;
+    grid-template-columns: auto auto;
+}
+header .item {
+	grid-column-start: 1;
+    grid-column-end:2;
+}
+header .container .row:first-child {
+	padding: 75px 0 45px;
+}
+header .logo a {
+	display: block;
+	width: 176px;
+	height: 129px;
+	background: #561a24;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 50px;
+}
+header .search_bar form {
+	text-align: right;
+}
+header .search_bar input {
+	width: 100%;
+	max-width: 190px;
+	height: 30px;
+	border-radius: 30px;
+	border: 0;
+	box-shadow: -3px -3px 10px 0px rgba(199, 196, 214,0.95);
+	padding-left: 15px;
+	background: #f7f7f7;
+}
+header .search_bar button {
+	position: relative;
+	right: 15px;
+    width: 50px;
+    height: 30px;
+    border-radius: 0px 30px 30px 0;
+    background: #fff;
+    border: 0;
+    box-shadow: -3px -3px 10px 0px rgba(199, 196, 214,0.95);
+    background: #f7f7f7;
+}
+header .container .row:last-child {
+	justify-content: center;
+	background: #e8daf1;
+	padding: 8px;
+}
+header .top_nav ul li {
+	display: inline-block;
+}
+header .top_nav ul li a {
+	color: #fff;
+	font-size: 16px;
+	background: #b9a5c7;
+	padding: 5px 20px; 
+	display: block;
+}
+.banner {
+	background: #96a6d9;
+    width: 100%;
+    height: 375px;
+    margin: 10px 0;
+}
+.grid_info {
+	display: grid;
+  	grid-template-columns: auto auto auto;
+	margin-top: 30px;
+}
+.grid_info .box {
+	color: #56343b;
+	padding: 0 30px;
+	width: 100%;
+}
+.grid_info .box a {
+	display: block;
+    border-radius: 30px;
+    font-size: 16px;
+    box-shadow: 3px 3px 5px 0px rgba(199, 196, 214,0.95);
+    background: #f7f7f7;
+    float: right;
+    width: 125px;
+    color: #56343b;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+footer {
+	background: #e1dbec;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+footer ul li {
+	display: inline-grid;
+}
+footer ul li a {
+	color: #56343b;
+	font-size: 16px;
+	padding: 10px 20px; 
+	display: grid;
+	font-weight: bold;
+}
